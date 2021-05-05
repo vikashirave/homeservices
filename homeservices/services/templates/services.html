@@ -1,0 +1,102 @@
+{% load static %}
+
+{% include 'navigation.html' %}
+{% block body %}
+
+
+<h2 style="text-align:center; margin-top:20px; margin-bottom:20px; font-weight:bold"> Our Services</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; height:200px">
+                <img src="{% static 'images/carpenter.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Carpenter</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; height:200px">
+                <img src="{% static 'images/plum.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Plumber</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; min-height:200px">
+                <img src="{% static 'images/elec.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Electrician</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; height:200px">
+                <img src="{% static 'images/welder.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Welder</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; height:200px">
+                <img src="{% static 'images/painter.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Painter</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+
+            <div class="card" style="width: 18rem; height:200px">
+                <img src="{% static 'images/fitter.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fitter</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+ {% include 'footer.html'%}
+
+{% endblock %}
+
