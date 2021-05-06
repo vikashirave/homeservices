@@ -25,4 +25,5 @@ urlpatterns = [
     path('contact', contact, name='contact'),
     path('user_signup', user_signup, name='user_signup'),
     path('services', services, name='services'),
+    ##new changes
 ]
